@@ -1,0 +1,101 @@
+<div class="h-screen hidden lg:block shadow-lg relative w-80">
+    <div class="relative bg-white dark:bg-gray-800">
+        <div class="flex flex-col sm:flex-row sm:justify-around">
+            <div class="w-72 h-screen">
+                <div class="flex items-center justify-start mx-6 mt-10">
+                    <img class="h-10" src="{{ asset('assets/img/logo.png') }}"/>
+                    <span class="text-gray-600 dark:text-gray-300 ml-4 text-2xl font-bold">
+                    Tail-Kit
+                </span>
+                </div>
+                <nav class="mt-10 px-6 ">
+                    <p class="text-gray-300 ml-2 w-full border-b-2 pb-2 border-gray-100 mb-4 text-md font-normal">
+                        {% trans %}sidebar.dashboard{% endtrans %}
+                    </p>
+                    <a class="hover:text-gray-800 hover:bg-gray-100 flex items-center p-2 my-6 transition-colors dark:hover:text-white dark:hover:bg-gray-600 duration-200  text-gray-600 dark:text-gray-400 rounded-lg " href="#">
+                        <i class="fa-solid fa-grip"></i>
+                        <span class="mx-4 text-lg font-normal">
+                        Dashboard
+                    </span>
+                        <span class="flex-grow text-right">
+                    </span>
+                    </a>
+                    <a class="hover:text-gray-800 hover:bg-gray-100 flex items-center p-2 my-6 transition-colors dark:hover:text-white dark:hover:bg-gray-600 duration-200  text-gray-800 dark:text-gray-100 rounded-lg bg-gray-100 dark:bg-gray-600" href="#">
+                        <i class="fa-solid fa-book"></i>
+                        <span class="mx-4 text-lg font-normal">
+                        Cours
+                    </span>
+                        <span class="flex-grow text-right">
+                    </span>
+                    </a>
+                    <a class="hover:text-gray-800 hover:bg-gray-100 flex items-center p-2 my-6 transition-colors dark:hover:text-white dark:hover:bg-gray-600 duration-200  text-gray-600 dark:text-gray-400 rounded-lg " href="#">
+                        <i class="fa-solid fa-calendar"></i>
+                        <span class="mx-4 text-lg font-normal">
+                        Agenda
+                    </span>
+                        <span class="flex-grow text-right">
+                        <button type="button" class="w-6 h-6 text-xs  rounded-full text-white bg-red-500">
+                            <span class="p-1">
+                                7
+                            </span>
+                        </button>
+                    </span>
+                    </a>
+                    <a class="hover:text-gray-800 hover:bg-gray-100 flex items-center p-2 my-6 transition-colors dark:hover:text-white dark:hover:bg-gray-600 duration-200  text-gray-600 dark:text-gray-400 rounded-lg " href="#">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                        <span class="mx-4 text-lg font-normal">
+                        Composition
+                    </span>
+                        <span class="flex-grow text-right">
+                    </span>
+                    </a>
+                    <a class="hover:text-gray-800 hover:bg-gray-100 flex items-center p-2 my-6 transition-colors dark:hover:text-white dark:hover:bg-gray-600 duration-200  text-gray-600 dark:text-gray-400 rounded-lg " href="#">
+                        <i class="fa-solid fa-note-sticky"></i>
+                        <span class="mx-4 text-lg font-normal">
+                        Résultats
+                    </span>
+                        <span class="flex-grow text-right">
+                    </span>
+                    </a>
+                    <a class="hover:text-gray-800 hover:bg-gray-100 flex items-center p-2 my-6 transition-colors dark:hover:text-white dark:hover:bg-gray-600 duration-200  text-gray-600 dark:text-gray-400 rounded-lg " href="#">
+                        <i class="fa-solid fa-comments"></i>
+                        <span class="mx-4 text-lg font-normal">
+                        Messages
+                    </span>
+                        <span class="flex-grow text-right">
+                    </span>
+                    </a>
+
+                    <p class="text-gray-300 ml-2 w-full border-b-2 pb-2 border-gray-100 mb-4 text-md font-normal">
+                        Autres
+                    </p>
+                    <a class="hover:text-gray-800 hover:bg-gray-100 flex items-center p-2 my-6 transition-colors dark:hover:text-white dark:hover:bg-gray-600 duration-200  text-gray-600 dark:text-gray-400 rounded-lg " href="#">
+                        <i class="fa-solid fa-file-invoice"></i>
+                        <span class="mx-4 text-lg font-normal">
+                        Comptabilité
+                    </span>
+                        <span class="flex-grow text-right">
+                    </span>
+                    </a>
+                    <a class="hover:text-gray-800 hover:bg-gray-100 flex items-center p-2 my-6 transition-colors dark:hover:text-white dark:hover:bg-gray-600 duration-200  text-gray-600 dark:text-gray-400 rounded-lg " href="#">
+                        <i class="fa-solid fa-utensils"></i>
+                        <span class="mx-4 text-lg font-normal">
+                        Restauration
+                    </span>
+                        <span class="flex-grow text-right">
+                    </span>
+                    </a>
+
+                </nav>
+                <div class="absolute bottom-0 my-10">
+                    <a class="text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100 transition-colors duration-200 flex items-center py-2 px-8" href="#">
+                        <i class="fa-solid fa-sliders"></i>
+                        <span class="mx-4 font-medium">
+                        Paramètres
+                    </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

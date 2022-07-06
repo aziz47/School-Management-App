@@ -1,0 +1,5 @@
+sidebar:
+  dashboard: 'Menu Principal'
+
+greetings:
+  morning: 'Bonjour'
